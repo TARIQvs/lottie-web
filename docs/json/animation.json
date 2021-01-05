@@ -49,22 +49,22 @@
       "items": {
         "oneOf": [
           {
-            "$ref": "#/layers/shape"
+            "$ref": "./layers/shape"
           },
           {
-            "$ref": "#/layers/solid"
+            "$ref": "./layers/solid"
           },
           {
-            "$ref": "#/layers/comp"
+            "$ref": "./layers/comp"
           },
           {
-            "$ref": "#/layers/image"
+            "$ref": "./layers/image"
           },
           {
-            "$ref": "#/layers/null"
+            "$ref": "./layers/null"
           },
           {
-            "$ref": "#/layers/text"
+            "$ref": "./layers/text"
           }
         ],
         "type": "object"
@@ -77,10 +77,10 @@
       "items": {
         "oneOf": [
           {
-            "$ref": "#/sources/image"
+            "$ref": "./sources/image"
           },
           {
-            "$ref": "#/sources/precomp"
+            "$ref": "./sources/precomp"
           }
         ],
         "type": "object"
@@ -93,7 +93,7 @@
       "items": {
         "oneOf": [
           {
-            "$ref": "#/sources/chars"
+            "$ref": "./sources/chars"
           }
         ],
         "type": "object"
